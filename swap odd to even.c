@@ -16,7 +16,7 @@ a[i]=a[i+1];
 a[i+1]=temp;
 i++;
 }
-a[b+a]='\0';
+a[b+1]='\0';
 printf("\n %s",a);
 getch();
 }
